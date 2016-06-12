@@ -1,0 +1,79 @@
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.exe
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.exe.config
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.BLL.dll
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Model.dll
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.DAL.dll
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Common.dll
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.BLL.pdb
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Model.pdb
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.DAL.pdb
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Common.pdb
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.csprojResolveAssemblyReference.cache
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.AdminForm.resources
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.BorrowForm.resources
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.InfoBaseForm.resources
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.InfoListForm.resources
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LibraryForm.resources
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LoginFrom.resources
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.Properties.Resources.resources
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.MainForm.resources
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.csproj.GenerateResource.Cache
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.exe
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.pdb
+F:\VS C# work\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.pdb
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.exe.config
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.exe
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.pdb
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.exe
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.pdb
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.BLL.dll
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Model.dll
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.DAL.dll
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Common.dll
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.BLL.pdb
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Model.pdb
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.DAL.pdb
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Common.pdb
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.csprojResolveAssemblyReference.cache
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.AdminForm.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.BorrowForm.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.InfoBaseForm.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.InfoListForm.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LibraryForm.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LoginFrom.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.Properties.Resources.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.MainForm.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.csproj.GenerateResource.Cache
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\OwnPageControl.PageControl1.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.BookAddForm.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.BookTypeTree.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LoginForm.AdminLoginForm.resources
+F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LoginForm.StudentLoginForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.exe.config
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.exe
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.pdb
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.exe
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.UI.pdb
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.BLL.dll
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Model.dll
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.DAL.dll
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Common.dll
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.BLL.pdb
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Model.pdb
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.DAL.pdb
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\bin\Debug\LibraryManagerMent.Common.pdb
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.csprojResolveAssemblyReference.cache
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.AdminForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.BookAddForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.BookTypeTree.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.BorrowForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.InfoBaseForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.InfoListForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LibraryForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LoginForm.AdminLoginForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LoginFrom.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.LoginForm.StudentLoginForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\OwnPageControl.PageControl1.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.Properties.Resources.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.MainForm.resources
+F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.csproj.GenerateResource.Cache
