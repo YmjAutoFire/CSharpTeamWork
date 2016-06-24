@@ -60,7 +60,7 @@ namespace LibraryManagerMent.UI
                 }
             }
 
-            main.Dispose();
+            
             
         }
 
@@ -142,6 +142,18 @@ namespace LibraryManagerMent.UI
         private void llblRegist_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
+        }
+
+        private void txtUser_Enter(object sender, EventArgs e)
+        {
+            lblP.Visible = false;
+            lblU.Visible = false;
+        }
+
+        private void txtPwd_Enter(object sender, EventArgs e)
+        {
+            lblP.Visible = false;
+            lblU.Visible = false;
         }
 
 

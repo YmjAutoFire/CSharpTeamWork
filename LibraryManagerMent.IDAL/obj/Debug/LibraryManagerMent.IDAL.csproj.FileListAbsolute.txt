@@ -12,3 +12,10 @@ F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.ID
 F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.IDAL\obj\Debug\LibraryManagerMent.IDAL.csprojResolveAssemblyReference.cache
 F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.IDAL\obj\Debug\LibraryManagerMent.IDAL.dll
 F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.IDAL\obj\Debug\LibraryManagerMent.IDAL.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IDAL\bin\Debug\LibraryManagerMent.IDAL.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IDAL\bin\Debug\LibraryManagerMent.IDAL.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IDAL\bin\Debug\LibraryManagerMent.Model.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IDAL\bin\Debug\LibraryManagerMent.Model.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IDAL\obj\Debug\LibraryManagerMent.IDAL.csprojResolveAssemblyReference.cache
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IDAL\obj\Debug\LibraryManagerMent.IDAL.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IDAL\obj\Debug\LibraryManagerMent.IDAL.pdb

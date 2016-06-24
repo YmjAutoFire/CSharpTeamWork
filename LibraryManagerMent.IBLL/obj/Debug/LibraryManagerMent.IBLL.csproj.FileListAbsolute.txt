@@ -12,3 +12,10 @@ F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.IB
 F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.IBLL\obj\Debug\LibraryManagerMent.IBLL.csprojResolveAssemblyReference.cache
 F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.IBLL\obj\Debug\LibraryManagerMent.IBLL.dll
 F:\VS C# work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.IBLL\obj\Debug\LibraryManagerMent.IBLL.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IBLL\bin\Debug\LibraryManagerMent.IBLL.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IBLL\bin\Debug\LibraryManagerMent.IBLL.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IBLL\bin\Debug\LibraryManagerMent.Model.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IBLL\bin\Debug\LibraryManagerMent.Model.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IBLL\obj\Debug\LibraryManagerMent.IBLL.csprojResolveAssemblyReference.cache
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IBLL\obj\Debug\LibraryManagerMent.IBLL.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.IBLL\obj\Debug\LibraryManagerMent.IBLL.pdb
