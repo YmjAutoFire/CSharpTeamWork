@@ -18,6 +18,9 @@ namespace LibraryManagerMent.UI
         {
             InitializeComponent();
         }
+
+        //图书类型
+        List<BookTypeGroup> types;
         /// <summary>
         /// 窗体加载事件
         /// </summary>
@@ -26,8 +29,9 @@ namespace LibraryManagerMent.UI
         private void Form1_Load(object sender, EventArgs e)
         {
             this.dgvBook.AutoGenerateColumns = false;
-
-
+            GetGroupsBLL bll = new GetGroupsBLL();
+            types = bll.getBookTypeGroup();
+            
         }
 
         #region  选项卡的切换事件
@@ -163,7 +167,7 @@ namespace LibraryManagerMent.UI
         {
             if (dgvBook.SelectedRows.Count == 0) return;
             
-            if(MessageBox.Show("确定要删除图书吗？","提示",MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.OK)
+            if(MessageBox.Show("确定要删除图书吗？","提示",MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 BookInfoModel book = dgvBook.SelectedRows[0].DataBoundItem as BookInfoModel;
                 BLL.BookInfoBLL bll = new BLL.BookInfoBLL();
@@ -240,7 +244,7 @@ namespace LibraryManagerMent.UI
         {
             TextBox box = sender as TextBox;
             if (!box.ReadOnly) box.BackColor = Color.White;
-            else box.BackColor = Color.Khaki;
+            else box.BackColor = Color.WhiteSmoke;
         }
 
         /// <summary>
@@ -301,7 +305,15 @@ namespace LibraryManagerMent.UI
             txtAuthor.Text = model.Author;
             txtPublish.Text = model.Publish;
             //图书借阅次数--------
-            //txtHisTimes.Text
+            BookHistoryBLL bll = new BookHistoryBLL();
+            txtHisTimes.Text = bll.getBookBorrowedCount(model.BookID).ToString();
+            for(int i=0;i<types.Count;i++)
+            {
+                if(types[i].TypeID == model.BookType)
+                {
+                    txtBookType.Text = types[i].TypeName;
+                }
+            }
             if (!string.IsNullOrEmpty(model.PicPath)) picAdd.Image = Image.FromFile(model.PicPath);
             txtBookStatus.Text = model.BookStatus;
         }

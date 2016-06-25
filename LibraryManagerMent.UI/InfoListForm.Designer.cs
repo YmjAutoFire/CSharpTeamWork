@@ -40,6 +40,8 @@
             this.tpBook = new System.Windows.Forms.TabPage();
             this.pnlModify = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnBookReset = new System.Windows.Forms.Button();
+            this.btnBookAdd = new System.Windows.Forms.Button();
             this.pbBook = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtBookType = new System.Windows.Forms.TextBox();
@@ -55,6 +57,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.picAdd = new System.Windows.Forms.PictureBox();
+            this.BookPage = new OwnPageControl.PageControl1();
             this.btnBookSearch = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtBookSearch = new System.Windows.Forms.TextBox();
@@ -70,9 +73,6 @@
             this.BookDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.BookModify = new System.Windows.Forms.ToolStripMenuItem();
             this.tpAdmin = new System.Windows.Forms.TabPage();
-            this.btnBookAdd = new System.Windows.Forms.Button();
-            this.btnBookReset = new System.Windows.Forms.Button();
-            this.BookPage = new OwnPageControl.PageControl1();
             this.tcInfoManager.SuspendLayout();
             this.tpBook.SuspendLayout();
             this.pnlModify.SuspendLayout();
@@ -167,6 +167,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "图书信息";
             // 
+            // btnBookReset
+            // 
+            this.btnBookReset.Location = new System.Drawing.Point(258, 337);
+            this.btnBookReset.Name = "btnBookReset";
+            this.btnBookReset.Size = new System.Drawing.Size(75, 23);
+            this.btnBookReset.TabIndex = 10;
+            this.btnBookReset.Text = "重置";
+            this.btnBookReset.UseVisualStyleBackColor = true;
+            this.btnBookReset.Visible = false;
+            this.btnBookReset.Click += new System.EventHandler(this.btnBookReset_Click);
+            // 
+            // btnBookAdd
+            // 
+            this.btnBookAdd.Location = new System.Drawing.Point(99, 337);
+            this.btnBookAdd.Name = "btnBookAdd";
+            this.btnBookAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnBookAdd.TabIndex = 9;
+            this.btnBookAdd.Text = "确定修改";
+            this.btnBookAdd.UseVisualStyleBackColor = true;
+            this.btnBookAdd.Visible = false;
+            this.btnBookAdd.Click += new System.EventHandler(this.btnBookAdd_Click);
+            // 
             // pbBook
             // 
             this.pbBook.Location = new System.Drawing.Point(165, 20);
@@ -187,7 +209,7 @@
             // 
             // txtBookType
             // 
-            this.txtBookType.BackColor = System.Drawing.Color.Khaki;
+            this.txtBookType.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtBookType.Location = new System.Drawing.Point(168, 266);
             this.txtBookType.Name = "txtBookType";
             this.txtBookType.ReadOnly = true;
@@ -196,7 +218,7 @@
             // 
             // txtBookStatus
             // 
-            this.txtBookStatus.BackColor = System.Drawing.Color.Khaki;
+            this.txtBookStatus.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtBookStatus.Location = new System.Drawing.Point(168, 300);
             this.txtBookStatus.Name = "txtBookStatus";
             this.txtBookStatus.ReadOnly = true;
@@ -205,7 +227,7 @@
             // 
             // txtHisTimes
             // 
-            this.txtHisTimes.BackColor = System.Drawing.Color.Khaki;
+            this.txtHisTimes.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtHisTimes.Location = new System.Drawing.Point(168, 232);
             this.txtHisTimes.Name = "txtHisTimes";
             this.txtHisTimes.ReadOnly = true;
@@ -214,7 +236,7 @@
             // 
             // txtPublish
             // 
-            this.txtPublish.BackColor = System.Drawing.Color.Khaki;
+            this.txtPublish.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPublish.Location = new System.Drawing.Point(168, 198);
             this.txtPublish.Name = "txtPublish";
             this.txtPublish.ReadOnly = true;
@@ -224,7 +246,7 @@
             // 
             // txtAuthor
             // 
-            this.txtAuthor.BackColor = System.Drawing.Color.Khaki;
+            this.txtAuthor.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtAuthor.Location = new System.Drawing.Point(168, 164);
             this.txtAuthor.Name = "txtAuthor";
             this.txtAuthor.ReadOnly = true;
@@ -234,7 +256,7 @@
             // 
             // txtBookName
             // 
-            this.txtBookName.BackColor = System.Drawing.Color.Khaki;
+            this.txtBookName.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtBookName.Location = new System.Drawing.Point(168, 130);
             this.txtBookName.Name = "txtBookName";
             this.txtBookName.ReadOnly = true;
@@ -314,6 +336,20 @@
             this.picAdd.TabIndex = 6;
             this.picAdd.TabStop = false;
             this.picAdd.Click += new System.EventHandler(this.picAdd_Click);
+            // 
+            // BookPage
+            // 
+            this.BookPage.BackColor = System.Drawing.Color.Transparent;
+            this.BookPage.DataCount = 0;
+            this.BookPage.Dgv = null;
+            this.BookPage.Location = new System.Drawing.Point(109, 390);
+            this.BookPage.Name = "BookPage";
+            this.BookPage.PageCount = 0;
+            this.BookPage.PageIndex = 0;
+            this.BookPage.PageSize = 0;
+            this.BookPage.Size = new System.Drawing.Size(603, 31);
+            this.BookPage.TabIndex = 5;
+            this.BookPage.PageChange_Click += new System.EventHandler(this.BookPage_PageChange_Click);
             // 
             // btnBookSearch
             // 
@@ -488,42 +524,6 @@
             this.tpAdmin.Size = new System.Drawing.Size(844, 438);
             this.tpAdmin.TabIndex = 1;
             this.tpAdmin.Text = "管理员";
-            // 
-            // btnBookAdd
-            // 
-            this.btnBookAdd.Location = new System.Drawing.Point(99, 337);
-            this.btnBookAdd.Name = "btnBookAdd";
-            this.btnBookAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnBookAdd.TabIndex = 9;
-            this.btnBookAdd.Text = "确定修改";
-            this.btnBookAdd.UseVisualStyleBackColor = true;
-            this.btnBookAdd.Visible = false;
-            this.btnBookAdd.Click += new System.EventHandler(this.btnBookAdd_Click);
-            // 
-            // btnBookReset
-            // 
-            this.btnBookReset.Location = new System.Drawing.Point(258, 337);
-            this.btnBookReset.Name = "btnBookReset";
-            this.btnBookReset.Size = new System.Drawing.Size(75, 23);
-            this.btnBookReset.TabIndex = 10;
-            this.btnBookReset.Text = "重置";
-            this.btnBookReset.UseVisualStyleBackColor = true;
-            this.btnBookReset.Visible = false;
-            this.btnBookReset.Click += new System.EventHandler(this.btnBookReset_Click);
-            // 
-            // BookPage
-            // 
-            this.BookPage.BackColor = System.Drawing.Color.Transparent;
-            this.BookPage.DataCount = 0;
-            this.BookPage.Dgv = null;
-            this.BookPage.Location = new System.Drawing.Point(109, 390);
-            this.BookPage.Name = "BookPage";
-            this.BookPage.PageCount = 0;
-            this.BookPage.PageIndex = 1;
-            this.BookPage.PageSize = 0;
-            this.BookPage.Size = new System.Drawing.Size(603, 31);
-            this.BookPage.TabIndex = 5;
-            this.BookPage.PageChange_Click += new System.EventHandler(this.BookPage_PageChange_Click);
             // 
             // InfoListForm
             // 

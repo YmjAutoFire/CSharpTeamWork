@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminInfoDAL.cs" />
+    <Compile Include="BookHistoryDAL.cs" />
     <Compile Include="BookInfoDAL.cs" />
     <Compile Include="GetGroups.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
