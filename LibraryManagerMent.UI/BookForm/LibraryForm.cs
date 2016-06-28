@@ -239,6 +239,38 @@ namespace LibraryManagerMent.UI
 
         #endregion
 
+        private void dgvBook_DoubleClick(object sender, EventArgs e)
+        {
+            BorrowBookForm borbook = new BorrowBookForm();
+            MainForm main = this.Parent.Parent as MainForm;
+
+            if (this.dgvBook.SelectedRows.Count > 0)
+            {
+                borbook.stuID = main.id;
+                //id传给BorrowBook窗体学号！
+                string bookID = dgvBook.SelectedRows[0].Cells[3].Value.ToString();
+                borbook.ID = bookID;
+                string bookName = dgvBook.SelectedRows[0].Cells[4].Value.ToString();
+                borbook.name = bookName;
+                string author = dgvBook.SelectedRows[0].Cells[0].Value.ToString();
+                borbook.auth = author;
+                string publish = dgvBook.SelectedRows[0].Cells[1].Value.ToString();
+                borbook.pub = publish;
+                string bookState = dgvBook.SelectedRows[0].Cells[5].Value.ToString();
+                borbook.sta = bookState;
+                string bookType = dgvBook.SelectedRows[0].Cells[2].Value.ToString();
+                borbook.type = bookType;
+                bool state = false;
+                if (bookState == "可借")
+                {
+                    state = true;
+                }
+                borbook.judge = state;
+            }
+
+            borbook.Show();
+        }
+
         
 
         

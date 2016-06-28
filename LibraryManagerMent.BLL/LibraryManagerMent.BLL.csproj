@@ -43,8 +43,11 @@
     <Compile Include="AdminInfoBLL.cs" />
     <Compile Include="BookHistoryBLL.cs" />
     <Compile Include="BookInfoBLL.cs" />
+    <Compile Include="BorrowBookBLL.cs" />
+    <Compile Include="BorrowHistoryBLL.cs" />
     <Compile Include="GetGroupsBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnBookBLL.cs" />
     <Compile Include="StudentInfoBLL.cs" />
   </ItemGroup>
   <ItemGroup>

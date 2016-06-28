@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("图书类别分类");
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("图书类别分类");
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LibraryForm));
             this.txtTypeSearch = new System.Windows.Forms.TextBox();
             this.tvSearch = new System.Windows.Forms.TreeView();
@@ -74,11 +74,11 @@
             this.tvSearch.Location = new System.Drawing.Point(4, 49);
             this.tvSearch.Margin = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.tvSearch.Name = "tvSearch";
-            treeNode2.Checked = true;
-            treeNode2.Name = "节点0";
-            treeNode2.Text = "图书类别分类";
+            treeNode1.Checked = true;
+            treeNode1.Name = "节点0";
+            treeNode1.Text = "图书类别分类";
             this.tvSearch.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2});
+            treeNode1});
             this.tvSearch.Size = new System.Drawing.Size(194, 390);
             this.tvSearch.TabIndex = 9;
             this.tvSearch.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvSearch_AfterSelect);
@@ -112,18 +112,18 @@
             this.dgvBook.AllowUserToAddRows = false;
             this.dgvBook.AllowUserToDeleteRows = false;
             this.dgvBook.AllowUserToResizeRows = false;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.LightCyan;
-            this.dgvBook.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightCyan;
+            this.dgvBook.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvBook.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dgvBook.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvBook.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBook.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvBook.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Author,
@@ -142,12 +142,13 @@
             this.dgvBook.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvBook.Size = new System.Drawing.Size(662, 321);
             this.dgvBook.TabIndex = 12;
+            this.dgvBook.DoubleClick += new System.EventHandler(this.dgvBook_DoubleClick);
             // 
             // Author
             // 
             this.Author.DataPropertyName = "Author";
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Author.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Author.DefaultCellStyle = dataGridViewCellStyle3;
             this.Author.HeaderText = "作者";
             this.Author.Name = "Author";
             this.Author.ReadOnly = true;
@@ -155,8 +156,8 @@
             // Publish
             // 
             this.Publish.DataPropertyName = "Publish";
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Publish.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Publish.DefaultCellStyle = dataGridViewCellStyle4;
             this.Publish.HeaderText = "出版社";
             this.Publish.Name = "Publish";
             this.Publish.ReadOnly = true;
@@ -164,8 +165,8 @@
             // BookType
             // 
             this.BookType.DataPropertyName = "TypeName";
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.BookType.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.BookType.DefaultCellStyle = dataGridViewCellStyle5;
             this.BookType.HeaderText = "图书类型";
             this.BookType.Name = "BookType";
             this.BookType.ReadOnly = true;
@@ -174,8 +175,8 @@
             // BookID
             // 
             this.BookID.DataPropertyName = "BookID";
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.BookID.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.BookID.DefaultCellStyle = dataGridViewCellStyle6;
             this.BookID.HeaderText = "图书编号";
             this.BookID.Name = "BookID";
             this.BookID.ReadOnly = true;
@@ -183,8 +184,8 @@
             // BookName
             // 
             this.BookName.DataPropertyName = "BookName";
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.BookName.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.BookName.DefaultCellStyle = dataGridViewCellStyle7;
             this.BookName.HeaderText = "图书名称";
             this.BookName.Name = "BookName";
             this.BookName.ReadOnly = true;
@@ -193,8 +194,8 @@
             // BookStatus
             // 
             this.BookStatus.DataPropertyName = "BookStatus";
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.BookStatus.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.BookStatus.DefaultCellStyle = dataGridViewCellStyle8;
             this.BookStatus.HeaderText = "可借状态";
             this.BookStatus.Name = "BookStatus";
             this.BookStatus.ReadOnly = true;
@@ -236,7 +237,7 @@
             this.BookPage.Location = new System.Drawing.Point(252, 399);
             this.BookPage.Name = "BookPage";
             this.BookPage.PageCount = 0;
-            this.BookPage.PageIndex = 0;
+            this.BookPage.PageIndex = 1;
             this.BookPage.PageSize = 0;
             this.BookPage.Size = new System.Drawing.Size(631, 31);
             this.BookPage.TabIndex = 15;

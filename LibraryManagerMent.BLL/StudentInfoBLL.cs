@@ -56,6 +56,14 @@ namespace LibraryManagerMent.BLL
             return dal.getStudentInfoByID(userID);
         }
 
+
+        public List<StudentInfoModel> getStudentInfoID(string userID)
+        {
+            StudentInfoDAL dal = new StudentInfoDAL();
+            return dal.getStudentInfoID(userID);
+        }
+
+
         /// <summary>
         /// insert one Student
         /// </summary>
@@ -103,13 +111,44 @@ namespace LibraryManagerMent.BLL
         {
             StudentInfoDAL dal = new StudentInfoDAL();
             int success = 0;
-
-
-
-            return success;
+              return success;
         }
 
+        public List<SchoolGroup> getSchoolName()
+        {
+            GetGroups dal = new GetGroups();
+            return dal.getSchoolGroup();
+        }
 
+        //public List<CollegeGroup> getCollegeName(string schoolID)
+        //{
+        //    GetGroups dal = new GetGroups();
+        //    return dal.getCollegeGroup(schoolID);
+        //}
+        public List<CollegeGroup> getCollegeName(string schoolID)
+        {
+            GetGroups dal = new GetGroups();
+            return dal.getCollegeGroup(schoolID);
+        }
+        public List<ProfessionGroup> getProfessionName(string collegeID)
+        {
+            GetGroups dal = new GetGroups();
+            return dal.getProfessionGroup(collegeID);
+        }
+        /// <summary>
+        /// /超期书的总数
+        /// </summary>
+        /// <param name="stuID"></param>
+        /// <returns></returns>
+        public int timeoutBorrowsBook(string stuID)
+        {
+            StudentInfoDAL dal = new StudentInfoDAL();
+          int n=dal.timeoutBorrowsBook(stuID);
+          dal.RewriteBorrowState(stuID);
 
+          return n;
+            
+
+        }
     }
 }

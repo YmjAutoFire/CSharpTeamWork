@@ -18,7 +18,7 @@ namespace LibraryManagerMent.UI
         {
             InitializeComponent();
         }
-
+        public string stuID;
         //图书类型
         List<BookTypeGroup> types;
         /// <summary>
@@ -32,6 +32,13 @@ namespace LibraryManagerMent.UI
             GetGroupsBLL bll = new GetGroupsBLL();
             types = bll.getBookTypeGroup();
             
+
+            //加载学生管理
+            tpStudent.Controls.Clear();
+            AdminForm ad = new AdminForm();
+            ad.TopLevel = false;
+            tpStudent.Controls.Add(ad);
+            ad.Show();
         }
 
         #region  选项卡的切换事件
@@ -62,7 +69,11 @@ namespace LibraryManagerMent.UI
             string name = control.TabPages[control.SelectedIndex].Text;
             if(name == "学生管理")
             {
-
+                tpStudent.Controls.Clear();
+                AdminForm ad = new AdminForm();
+                ad.TopLevel = false;
+                tpStudent.Controls.Add(ad);
+                ad.Show();
             }
             else if(name == "图书管理")
             {

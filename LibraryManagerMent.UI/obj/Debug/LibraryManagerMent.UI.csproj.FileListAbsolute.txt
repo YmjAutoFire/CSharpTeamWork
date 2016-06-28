@@ -105,3 +105,6 @@ F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMen
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.Properties.Resources.resources
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.MainForm.resources
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.csproj.GenerateResource.Cache
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.BorrowBookForm.resources
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.ReturnBookForm.resources
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.UI\obj\Debug\LibraryManagerMent.UI.UpdatePwd.resources

@@ -18,6 +18,8 @@ namespace LibraryManagerMent.UI
         {
             InitializeComponent();
         }
+        public string pro;
+        public string id;
         /// <summary>
         /// 获取登录的管理员
         /// </summary>
@@ -25,7 +27,11 @@ namespace LibraryManagerMent.UI
         public void getLoginAdmin(AdminInfoModel admin)
         {
 
-
+            lblShowID.Text = "编号：" + admin.AdminID;
+            lblShowName.Text = "用户名：" + admin.AdminName;
+            this.btnBorrow.Enabled = false;
+            pro = "admin";
+            id = admin.AdminID;
             this.btnInfoList.Visible = true;
         }
         /// <summary>
@@ -34,7 +40,10 @@ namespace LibraryManagerMent.UI
         /// <param name="stu"></param>
         public void getLoginStudent(StudentInfoModel stu)
         {
-
+            lblShowID.Text = "编号："+ stu.StuID;
+            lblShowName.Text = "用户名："+stu.StuName;
+            id = stu.StuID;
+            pro = "student";
         }
 
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
@@ -90,6 +99,8 @@ namespace LibraryManagerMent.UI
         {
             this.pnlForm.Controls.Clear();
             BorrowForm borrow = new BorrowForm();
+            //获取学号；Borrow.Form.cs的加载事件中必须声明public string stuID；
+            borrow.stuID = lblShowID.Text.Split(new char[] { '：' })[1];
             borrow.TopLevel = false;
             this.pnlForm.Controls.Add(borrow);
             borrow.Show();
@@ -105,6 +116,8 @@ namespace LibraryManagerMent.UI
         {
             this.pnlForm.Controls.Clear();
             InfoBaseForm infoBase = new InfoBaseForm();
+            //infoBase.username = lblShowID.Text.Split(new char[] { '：' })[1];
+            infoBase.stuID = lblShowID.Text.Split(new char[] { '：' })[1];
             infoBase.TopLevel = false;
             this.pnlForm.Controls.Add(infoBase);
             infoBase.Show();

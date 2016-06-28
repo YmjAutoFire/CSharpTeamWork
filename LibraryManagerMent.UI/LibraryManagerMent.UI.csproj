@@ -63,7 +63,7 @@
     <Compile Include="AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminForm.Designer.cs">
+    <Compile Include="AdminForm.designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
     <Compile Include="BookForm\BookAddForm.cs">
@@ -78,10 +78,16 @@
     <Compile Include="BookForm\BookTypeTree.Designer.cs">
       <DependentUpon>BookTypeTree.cs</DependentUpon>
     </Compile>
-    <Compile Include="BorrowForm.cs">
+    <Compile Include="Borrow\BorrowBookForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BorrowForm.Designer.cs">
+    <Compile Include="Borrow\BorrowBookForm.designer.cs">
+      <DependentUpon>BorrowBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrow\BorrowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrow\BorrowForm.designer.cs">
       <DependentUpon>BorrowForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ControlLoad.cs">
@@ -90,7 +96,7 @@
     <Compile Include="InfoBaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InfoBaseForm.Designer.cs">
+    <Compile Include="InfoBaseForm.designer.cs">
       <DependentUpon>InfoBaseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="InfoListForm.cs">
@@ -138,6 +144,18 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Borrow\ReturnBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrow\ReturnBookForm.designer.cs">
+      <DependentUpon>ReturnBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentInfo\UpdatePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentInfo\UpdatePwd.Designer.cs">
+      <DependentUpon>UpdatePwd.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,7 +165,10 @@
     <EmbeddedResource Include="BookForm\BookTypeTree.resx">
       <DependentUpon>BookTypeTree.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BorrowForm.resx">
+    <EmbeddedResource Include="Borrow\BorrowBookForm.resx">
+      <DependentUpon>BorrowBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrow\BorrowForm.resx">
       <DependentUpon>BorrowForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InfoBaseForm.resx">
@@ -183,6 +204,12 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Borrow\ReturnBookForm.resx">
+      <DependentUpon>ReturnBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentInfo\UpdatePwd.resx">
+      <DependentUpon>UpdatePwd.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -201,6 +228,10 @@
     <ProjectReference Include="..\LibraryManagerMent.BLL\LibraryManagerMent.BLL.csproj">
       <Project>{b9b317d4-219f-4ea8-be4a-d5a9116895b1}</Project>
       <Name>LibraryManagerMent.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryManagerMent.Common\LibraryManagerMent.Common.csproj">
+      <Project>{c6766550-0901-4dd7-a26a-aaafd14c3eda}</Project>
+      <Name>LibraryManagerMent.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\LibraryManagerMent.Model\LibraryManagerMent.Model.csproj">
       <Project>{8511b445-cd82-49ab-98d2-00cf1df54c80}</Project>

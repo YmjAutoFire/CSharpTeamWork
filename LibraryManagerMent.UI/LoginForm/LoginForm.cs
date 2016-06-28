@@ -37,12 +37,11 @@ namespace LibraryManagerMent.UI
             {
                 StudentInfoModel student = new StudentInfoModel();
 
-                if (checkStudent(student))
+                if (checkStudent(out student))
                 {
                     getLoginStudent login = new getLoginStudent(main.getLoginStudent);
                     login(student);
                     main.Show();
-
                     this.Hide();
                 }
             }
@@ -50,7 +49,7 @@ namespace LibraryManagerMent.UI
             {
                 AdminInfoModel admin = new AdminInfoModel();
 
-                if (checkAdmin(admin))
+                if (checkAdmin(out admin))
                 {
                     getLoginAdmin login = new getLoginAdmin(main.getLoginAdmin);
                     login(admin);
@@ -59,15 +58,9 @@ namespace LibraryManagerMent.UI
                     this.Hide();
                 }
             }
-
-            
-            
         }
-
-        
-
         //check student whether exist
-        private bool checkStudent(StudentInfoModel stu)
+        private bool checkStudent(out StudentInfoModel stu)
         {
             StudentInfoBLL bll = new StudentInfoBLL();
             stu =  bll.getStudentInfoByID(txtUser.Text.Trim());
@@ -90,7 +83,7 @@ namespace LibraryManagerMent.UI
             }
         }
         //check admin whether exist
-        private bool checkAdmin(AdminInfoModel admin)
+        private bool checkAdmin(out AdminInfoModel admin)
         {
             AdminInfoBLL bll = new AdminInfoBLL();
             admin = bll.getAdminInfoByID(txtUser.Text.Trim());
