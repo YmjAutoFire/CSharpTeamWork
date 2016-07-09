@@ -39,7 +39,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtStuID = new System.Windows.Forms.TextBox();
             this.txtStuName = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtpic = new System.Windows.Forms.TextBox();
             this.dtpEntrance = new System.Windows.Forms.DateTimePicker();
             this.numClass = new System.Windows.Forms.NumericUpDown();
             this.combProfession = new System.Windows.Forms.ComboBox();
@@ -136,14 +136,14 @@
             this.txtStuName.Size = new System.Drawing.Size(142, 21);
             this.txtStuName.TabIndex = 1;
             // 
-            // textBox8
+            // txtpic
             // 
-            this.textBox8.Location = new System.Drawing.Point(142, 333);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(142, 21);
-            this.textBox8.TabIndex = 7;
-            this.textBox8.Click += new System.EventHandler(this.textBox8_Click);
+            this.txtpic.Location = new System.Drawing.Point(142, 333);
+            this.txtpic.Name = "txtpic";
+            this.txtpic.ReadOnly = true;
+            this.txtpic.Size = new System.Drawing.Size(142, 21);
+            this.txtpic.TabIndex = 7;
+            this.txtpic.Enter += new System.EventHandler(this.txtpic_Enter);
             // 
             // dtpEntrance
             // 
@@ -155,9 +155,19 @@
             // numClass
             // 
             this.numClass.Location = new System.Drawing.Point(142, 248);
+            this.numClass.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numClass.Name = "numClass";
             this.numClass.Size = new System.Drawing.Size(142, 21);
             this.numClass.TabIndex = 5;
+            this.numClass.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // combProfession
             // 
@@ -174,6 +184,7 @@
             this.combCollege.Name = "combCollege";
             this.combCollege.Size = new System.Drawing.Size(142, 20);
             this.combCollege.TabIndex = 3;
+            this.combCollege.SelectedIndexChanged += new System.EventHandler(this.combCollege_SelectedIndexChanged);
             // 
             // combSchool
             // 
@@ -182,6 +193,7 @@
             this.combSchool.Name = "combSchool";
             this.combSchool.Size = new System.Drawing.Size(142, 20);
             this.combSchool.TabIndex = 2;
+            this.combSchool.SelectedIndexChanged += new System.EventHandler(this.combSchool_SelectedIndexChanged);
             // 
             // btnLogin
             // 
@@ -193,6 +205,7 @@
             this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "注册";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnReset
             // 
@@ -202,8 +215,9 @@
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 8;
-            this.btnReset.Text = "重置";
+            this.btnReset.Text = "取消";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // StudentLoginForm
             // 
@@ -218,7 +232,7 @@
             this.Controls.Add(this.combProfession);
             this.Controls.Add(this.numClass);
             this.Controls.Add(this.dtpEntrance);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtpic);
             this.Controls.Add(this.txtStuName);
             this.Controls.Add(this.txtStuID);
             this.Controls.Add(this.label8);
@@ -234,6 +248,7 @@
             this.MinimizeBox = false;
             this.Name = "StudentLoginForm";
             this.Text = "学生用户注册";
+            this.Load += new System.EventHandler(this.StudentLoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numClass)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -252,7 +267,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtStuID;
         private System.Windows.Forms.TextBox txtStuName;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtpic;
         private System.Windows.Forms.DateTimePicker dtpEntrance;
         private System.Windows.Forms.NumericUpDown numClass;
         private System.Windows.Forms.ComboBox combProfession;

@@ -17,7 +17,7 @@ namespace LibraryManagerMent.DAL
         /// <returns></returns>
         public List<SchoolGroup> getSchoolGroup()
         {
-            List<SchoolGroup> list = null;
+            List<SchoolGroup> list = new List<SchoolGroup>();
             string comd = "select * from SchoolType";
             SQLHelper sh = new SQLHelper();
             using(SqlDataReader read = sh.getDataReader(comd))
@@ -45,7 +45,7 @@ namespace LibraryManagerMent.DAL
             string comd = "select * from CollegeType where schoolID=@schoolID";
             SqlParameter[] ps = { new SqlParameter("@schoolID", schoolID) };
             SQLHelper sh = new SQLHelper();
-            List<CollegeGroup> list = null;
+            List<CollegeGroup> list = new List<CollegeGroup>();
             using(SqlDataReader read = sh.getDataReader(comd,ps))
             {
                 if(read.HasRows)
@@ -74,7 +74,7 @@ namespace LibraryManagerMent.DAL
             string comd = "select * from ProfessionType where collegeID = @collegeID";
             SqlParameter[] ps = { new SqlParameter("@collegeID", collegeID) };
             SQLHelper sh = new SQLHelper();
-            List<ProfessionGroup> list = null;
+            List<ProfessionGroup> list = new List<ProfessionGroup>();
             using(SqlDataReader read=sh.getDataReader(comd,ps))
             {
                 if(read.HasRows)

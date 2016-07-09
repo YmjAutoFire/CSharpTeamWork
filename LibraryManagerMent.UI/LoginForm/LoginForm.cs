@@ -1,5 +1,6 @@
 ﻿using LibraryManagerMent.BLL;
 using LibraryManagerMent.Model;
+using LibraryManagerMent.UI.LoginForm;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -134,7 +135,16 @@ namespace LibraryManagerMent.UI
         /// <param name="e"></param>
         private void llblRegist_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            if(rdoAdmin.Checked)
+            {
+                AdminLoginForm admin = new AdminLoginForm();
+                admin.Show();
+            }
+            else
+            {
+                StudentLoginForm stu = new StudentLoginForm();
+                stu.Show();
+            }
         }
 
         private void txtUser_Enter(object sender, EventArgs e)

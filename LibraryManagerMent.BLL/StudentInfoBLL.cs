@@ -86,6 +86,15 @@ namespace LibraryManagerMent.BLL
             return dal.updateStudentInfo(stu);
         }
 
+        ///<sumary>
+        ///update student's headpath
+        /// </sumary>
+        public int updateStudentHeadpath(string stuID,string headPath)
+        {
+            StudentInfoBLL bll = new StudentInfoBLL();
+            return bll.updateStudentHeadpath(stuID, headPath);
+        }
+
         /// <summary>
         /// updata student borrowing book's num by stuID
         /// </summary>

@@ -168,7 +168,7 @@ namespace LibraryManagerMent.DAL
                     new SqlParameter("@entrance",stu.Entrance),                
                 };
             SQLHelper h = new SQLHelper();
-            return h.ExecuteNonQuery(comd);
+            return h.ExecuteNonQuery(comd,ps);
         }
 
         /// <summary>
@@ -200,7 +200,18 @@ namespace LibraryManagerMent.DAL
                     new SqlParameter("@stuID",SqlDbType.NVarChar){Value = stuID}                
                 };
             SQLHelper h = new SQLHelper();
-            return h.ExecuteNonQuery(comd);
+            return h.ExecuteNonQuery(comd,ps);
+        }
+
+        public int updateStudentHeadPath(string stuID,string headPath)
+        {
+            string comd = "update StudentInfo set headpath=@headpath   where  stuID = @stuID";
+            SqlParameter[] ps = { 
+                    new SqlParameter("@headpath",SqlDbType.Int){Value = headPath},
+                    new SqlParameter("@stuID",SqlDbType.NVarChar){Value = stuID}                
+                };
+            SQLHelper h = new SQLHelper();
+            return h.ExecuteNonQuery(comd,ps);
         }
 
 
@@ -214,7 +225,7 @@ namespace LibraryManagerMent.DAL
                     new SqlParameter("@stuID",SqlDbType.NVarChar){Value = stuID}                
                 };
             SQLHelper h = new SQLHelper();
-            return h.ExecuteNonQuery(comd);
+            return h.ExecuteNonQuery(comd,ps);
         }
         /// <summary>
         /// 获取学校的名字

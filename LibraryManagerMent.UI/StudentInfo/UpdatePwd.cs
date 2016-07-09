@@ -33,12 +33,18 @@ namespace LibraryManagerMent.UI
 
         private void txtPwd_Leave(object sender, EventArgs e)
         {
+            
+        }
+
+        private void btnSure_Click(object sender, EventArgs e)
+        {
             string pwd = txtp.Text;
             string pp = txtPwd.Text;
             if (pwd != pp)
                 MessageBox.Show("密码不一致", "错误");
-            else {
-               
+            else
+            {
+
                 StudentInfoBLL stubll = new StudentInfoBLL();
                 StudentInfoModel stu = stubll.getStudentInfoByID(stuID);
                 stu.StuPwd = pwd;

@@ -90,10 +90,20 @@ namespace LibraryManagerMent.UI
         {
             
         }
-
+        //头像选择
         private void btnpicture_Click(object sender, EventArgs e)
         {
-            
+            OpenFileDialog open = new OpenFileDialog();
+            open.ShowDialog();
+            if (!string.IsNullOrEmpty(open.FileName))
+            {
+                string file = open.FileName;
+                headPath.Image = Image.FromFile(file);
+                StudentInfoBLL bll = new StudentInfoBLL();
+                if (bll.updateStudentHeadpath(stuID, file) == 1)
+                    MessageBox.Show("修改成功");
+                else MessageBox.Show("修改失败");
+            }
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

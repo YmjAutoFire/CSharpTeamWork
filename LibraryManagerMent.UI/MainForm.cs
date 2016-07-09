@@ -42,6 +42,11 @@ namespace LibraryManagerMent.UI
         {
             lblShowID.Text = "编号："+ stu.StuID;
             lblShowName.Text = "用户名："+stu.StuName;
+            try
+            {
+                if (!string.IsNullOrEmpty(stu.HeadPath)) picHead.Image = Image.FromFile(stu.HeadPath);
+            }
+            catch { }
             id = stu.StuID;
             pro = "student";
         }

@@ -43,6 +43,7 @@
             this.btnSure.TabIndex = 0;
             this.btnSure.Text = "确认";
             this.btnSure.UseVisualStyleBackColor = true;
+            this.btnSure.Click += new System.EventHandler(this.btnSure_Click);
             // 
             // lblp
             // 

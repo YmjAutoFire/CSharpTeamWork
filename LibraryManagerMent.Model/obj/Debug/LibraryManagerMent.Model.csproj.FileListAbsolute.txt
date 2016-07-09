@@ -14,5 +14,6 @@ F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryMan
 F:\practice_work\C#_work\2016-5月\2016年5月c#作业\CSharpTeamWork\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.pdb
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.Model\bin\Debug\LibraryManagerMent.Model.dll
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.Model\bin\Debug\LibraryManagerMent.Model.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.csprojResolveAssemblyReference.cache
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.dll
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.pdb

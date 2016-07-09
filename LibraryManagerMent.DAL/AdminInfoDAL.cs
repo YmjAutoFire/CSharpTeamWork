@@ -80,10 +80,9 @@ namespace LibraryManagerMent.DAL
         /// <returns></returns>
         public int insertAdminInfo(AdminInfoModel admin)
         {
-            string comd = "insert into AdminInfo values( @loginID ,@adminID ,@adminName,@adminPwd  )";
+            string comd = "insert into AdminInfo(loginID,adminName,adminPwd) values( @loginID ,@adminName,@adminPwd  )";
             SqlParameter[] ps = { 
-                    new SqlParameter("@loginID",SqlDbType.NVarChar){Value = admin.LoginID}   ,             
-                    new SqlParameter("@adminID",SqlDbType.NVarChar){Value = admin.AdminID} ,               
+                    new SqlParameter("@loginID",SqlDbType.NVarChar){Value = admin.LoginID}   ,               
                     new SqlParameter("@adminName",SqlDbType.NVarChar){Value = admin.AdminName}  ,              
                     new SqlParameter("@adminPwd",SqlDbType.NVarChar){Value = admin.AdminPwd}                
                 };
