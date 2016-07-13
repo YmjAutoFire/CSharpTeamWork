@@ -195,7 +195,7 @@ namespace LibraryManagerMent.DAL
                                     new SqlParameter("@bookType",book.BookType),
                                     new SqlParameter("@bookID",book.BookID),
                                     new SqlParameter("@bookName",book.BookName),
-                                    new SqlParameter("@bookStatus",book.BookStatus),
+                                    new SqlParameter("@bookStatus",1),
                                     new SqlParameter("@picPath",book.PicPath)
                                 };
             SQLHelper h = new SQLHelper();

@@ -17,3 +17,7 @@ F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMen
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.csprojResolveAssemblyReference.cache
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.dll
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.Model\bin\Debug\LibraryManagerMent.Model.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.Model\bin\Debug\LibraryManagerMent.Model.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.Model\obj\Debug\LibraryManagerMent.Model.pdb

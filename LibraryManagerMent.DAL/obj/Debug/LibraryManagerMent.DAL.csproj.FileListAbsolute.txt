@@ -34,3 +34,12 @@ F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMen
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.DAL\obj\Debug\LibraryManagerMent.DAL.csprojResolveAssemblyReference.cache
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.DAL\obj\Debug\LibraryManagerMent.DAL.dll
 F:\practice_work\C#_work\2016-May\2016-May-team\CSharpTeamWork\LibraryManagerMent.DAL\obj\Debug\LibraryManagerMent.DAL.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\bin\Debug\LibraryManagerMent.DAL.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\bin\Debug\LibraryManagerMent.DAL.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\bin\Debug\LibraryManagerMent.Common.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\bin\Debug\LibraryManagerMent.Model.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\bin\Debug\LibraryManagerMent.Common.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\bin\Debug\LibraryManagerMent.Model.pdb
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\obj\Debug\LibraryManagerMent.DAL.csprojResolveAssemblyReference.cache
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\obj\Debug\LibraryManagerMent.DAL.dll
+F:\practice_work\C#_work\2016-May\2016-May-team\新建文件夹\任性图书馆（颜铭江,宋春娇,徐莹,张忠轩,高扬)\LibraryManagerMent.DAL\obj\Debug\LibraryManagerMent.DAL.pdb

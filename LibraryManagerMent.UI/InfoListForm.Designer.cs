@@ -345,7 +345,7 @@
             this.BookPage.Location = new System.Drawing.Point(109, 390);
             this.BookPage.Name = "BookPage";
             this.BookPage.PageCount = 0;
-            this.BookPage.PageIndex = 0;
+            this.BookPage.PageIndex = 1;
             this.BookPage.PageSize = 0;
             this.BookPage.Size = new System.Drawing.Size(603, 31);
             this.BookPage.TabIndex = 5;
@@ -365,6 +365,7 @@
             this.btnBookSearch.TabIndex = 3;
             this.btnBookSearch.Text = "查询";
             this.btnBookSearch.UseVisualStyleBackColor = false;
+            this.btnBookSearch.Click += new System.EventHandler(this.btnBookSearch_Click);
             // 
             // label1
             // 

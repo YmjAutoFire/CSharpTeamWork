@@ -268,7 +268,9 @@ namespace LibraryManagerMent.UI
             BookInfoModel book = this.pnlModify.Tag as BookInfoModel;
             book.BookName = txtBookName.Text;
             book.Author = txtAuthor.Text;
-            book.Publish = txtAuthor.Text;
+            book.Publish = txtPublish.Text;
+            book.BookStatus = "可借";
+            book.BookType = txtBookType.Text;
             BookInfoBLL bll = new BookInfoBLL();
             int res = bll.updateBookInfoModel(book);
             if(res == 1)
@@ -328,7 +330,27 @@ namespace LibraryManagerMent.UI
             if (!string.IsNullOrEmpty(model.PicPath)) picAdd.Image = Image.FromFile(model.PicPath);
             txtBookStatus.Text = model.BookStatus;
         }
-        
+
+        private void btnBookSearch_Click(object sender, EventArgs e)
+        {
+            beginSearch();
+        }
+
+        /// <summary>
+        /// 重构出来的根据图书姓名模糊查询出来的结果
+        /// </summary>
+        protected void beginSearch()
+        {
+            if (!string.IsNullOrEmpty(this.txtBookSearch.Text.Trim()))
+            {
+                BookInfoBLL bll = new BookInfoBLL();
+                string searchStr = this.txtBookSearch.Text.Trim();
+                List<BookInfoModel> list = bll.getBookInfoLikeName(this.txtBookSearch.Text.Trim(), 1);
+                this.dgvBook.DataSource = list;
+                BookPage.DataCount = bll.getBookCountLike(searchStr);
+                BookPage.PageIndex = 1;
+            }
+        }
         
 
 

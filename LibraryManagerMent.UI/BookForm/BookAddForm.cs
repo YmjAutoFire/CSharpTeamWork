@@ -72,7 +72,7 @@ namespace LibraryManagerMent.UI
             book.Publish = txtPublish.Text.Trim();
             book.BookID = txtBookID.Text.Trim();
             book.BookName = txtBookName.Text.Trim();
-            book.BookType = txtBookType.ToString();
+            book.BookType = txtBookType.Text.ToString();
             book.PicPath = txtBookPic.Text.Trim();
             BookInfoBLL bll = new BookInfoBLL();
             if(bll.insertBookInfo(book)==1)
